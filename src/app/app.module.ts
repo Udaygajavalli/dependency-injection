@@ -8,12 +8,14 @@ import { ChildComponent } from './child/child.component';
 import { ParentComponent } from './parent/parent.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { Child2Component } from './child2/child2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChildComponent,
-    ParentComponent
+    ParentComponent,
+    Child2Component
   ],
   imports: [
     BrowserModule,
